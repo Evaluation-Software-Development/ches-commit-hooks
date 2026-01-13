@@ -4,10 +4,18 @@ This repository provides pre-commit hooks for CHES related projects.
 
 ## Usage
 
-tbd
+Add the following to the `.pre-commit-config.yaml` in your project and add `- id: <hook ID>` for every hook you want to enable:
+
+```
+- repo: https://github.com/Evaluation-Software-Development/ches-commit-hooks
+  rev: v1.0.0
+  hooks:
+    - id: prettier
+    - id: ...
+```
 
 ## Available Hooks
 
-### Hook ID
+### prettier
 
-tbd
+Formats changed files using `prettier`.
