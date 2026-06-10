@@ -4,4 +4,4 @@
   language: node
   types: [text]
   stages: [pre-commit]
-  additional_dependencies: ['prettier@3.8.1']
+  additional_dependencies: ['prettier@3.8.4']
